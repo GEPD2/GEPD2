@@ -24,8 +24,8 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ---
 ### 📂 My Projects
 
-- 🔥 **Python Repositories**: Advanced scripts, automation & more! [Check Here](#)
-- 🏗️ **C Language Projects**: Performance-focused applications! [Check Here](#)
+- 🔥 **Python Repositories**: Advanced scripts, automation & more!
+- 🏗️ **C Language Projects**: Performance-focused applications!
 - 💡 **More cool projects** coming soon...
 
 #### 🔹 Favorite Operating Systems
