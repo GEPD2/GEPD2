@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @GEPD2
-- 👀 I’m interested in cyber security and more specifically in penetration testing,coding,creating automations in different languages
+- 👀 I’m interested in cyber security and more specifically in penetration testing,coding,creating automations in different languages and simulate my attacks on my lab
 - 🎖️ currently i use python,c,c++,java
 - 🌱 I’m currently learning php and how to create a database with sql
 - ⚡ Fun fact: all the projects that i create,i simulate them in my own lab. I always use Linux systems for different reasons.
