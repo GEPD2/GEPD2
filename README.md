@@ -44,6 +44,7 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ---
 ### 📫 Connect with Me
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GEPD2)
+- More platforms soon!
 
 🚀 *Always eager to learn & collaborate!*
 
