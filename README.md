@@ -24,9 +24,11 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ---
 ### 📂 My Projects
 
-- 🔥 **Python Repositories**: Advanced scripts, automation & more!
-- 🏗️ **C Language Projects**: Performance-focused applications!
-- 💡 **More cool projects** coming soon...
+- 🔐 [Crypto Toolkit](https://github.com/GEPD2/encryption_app) — Python app demonstrating various cryptographic techniques (Caesar, Vigenère, RSA, hashing, etc.)  
+- 🛰️ [Satellite Simulator](https://github.com/GEPD2/satellite_simulation) — Simulates satellite movement and data transfer in python; includes orbital mechanics logic  
+- 🕷️ [automation of different nmap parameters,simple xss,xml bomb creation,python server instant creation,UDP spam attack automation](https://github.com/GEPD2/automation_tool) - Network scanning automation,xss and xml bomb creation and udp attck (simulated on my lab)
+- 🧪 **[Image Recognition Medical Info application (Python)](https://github.com/GEPD2/project_python_2)  Uses image recognition + web scraping to identify and describe medication.
+
 
 #### 🔹 Favorite Operating Systems
 ![Parrot OS](https://img.shields.io/badge/Parrot%20OS-0D9D58?style=for-the-badge&logo=parrotos&logoColor=white)
@@ -39,13 +41,6 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ---
 ### 📜 Certifications (In Progress)
 🎓 Planning to obtain soon! 
-
----
-### 🧪 Featured Projects
-- 🔐 [Crypto Toolkit](https://github.com/GEPD2/encryption_app) — Python app demonstrating various cryptographic techniques (Caesar, Vigenère, RSA, hashing, etc.)  
-- 🛰️ [Satellite Simulator](https://github.com/GEPD2/satellite_simulation) — Simulates satellite movement and data transfer in python; includes orbital mechanics logic  
-- 🕷️ [automation of different nmap parameters,simple xss,xml bomb creation,python server instant creation,UDP spam attack automation](https://github.com/GEPD2/automation_tool) - Network scanning automation,xss and xml bomb creation and udp attck (simulated on my lab)
-- 🧪 **[Image Recognition Medical Info application (Python)](https://github.com/GEPD2/project_python_2)  Uses image recognition + web scraping to identify and describe medication.
 
 ---
 ## 🧰 Tools I Use
