@@ -45,6 +45,7 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 - 🔐 [Crypto Toolkit](https://github.com/GEPD2/encryption_app) — Python app demonstrating various cryptographic techniques (Caesar, Vigenère, RSA, hashing, etc.)  
 - 🛰️ [Satellite Simulator](https://github.com/GEPD2/satellite_simulation) — Simulates satellite movement and data transfer in python; includes orbital mechanics logic  
 - 🕷️ [automation of different nmap parameters,simple xss,xml bomb creation,python server instant creation,UDP spam attack automation](https://github.com/GEPD2/automation_tool) - Network scanning automation,xss and xml bomb creation and udp attck (simulated on my lab)
+- 🧪 **[Image Recognition Medical Info application (Python)](https://github.com/GEPD2/project_python_2)  Uses image recognition + web scraping to identify and describe medication.
 
 ---
 ## 🧰 Tools I Use
