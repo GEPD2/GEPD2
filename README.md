@@ -40,11 +40,41 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ### 📜 Certifications (In Progress)
 🎓 Planning to obtain soon! 
 
+---
+### 🧪 Featured Projects
+- 🔐 [Crypto Toolkit](https://github.com/GEPD2/encryption_app) — Python app demonstrating various cryptographic techniques (Caesar, Vigenère, RSA, hashing, etc.)  
+- 🛰️ [Satellite Simulator](https://github.com/GEPD2/satellite_simulation) — Simulates satellite movement and data transfer in python; includes orbital mechanics logic  
+- 🕷️ [automation of different nmap parameters,simple xss,xml bomb creation,python server instant creation,UDP spam attack automation](https://github.com/GEPD2/automation_tool) - Network scanning automation,xss and xml bomb creation and udp attck (simulated on my lab)
 
 ---
 ### 📫 Connect with Me
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GEPD2)
 - More platforms soon!
+
+---
+## 🧰 Tools I Use
+
+| Tool | Badge |
+|------|-------|
+| Nmap | ![Nmap](https://img.shields.io/badge/Nmap-4F8A10?style=for-the-badge&logo=gnometerminal&logoColor=white) |
+| OWASP ZAP | ![ZAP](https://img.shields.io/badge/OWASP%20ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white) |
+| Burp Suite | ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-ff6600?style=for-the-badge&logo=burpsuite&logoColor=white) |
+| Wireshark | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) |
+| Metasploit | ![Metasploit](https://img.shields.io/badge/Metasploit-4A90E2?style=for-the-badge&logo=metasploit&logoColor=white) |
+| Hashcat | ![Hashcat](https://img.shields.io/badge/Hashcat-5E2750?style=for-the-badge&logoColor=white) |
+| Hydra | ![Hydra](https://img.shields.io/badge/Hydra-34495E?style=for-the-badge&logoColor=white) |
+| Gobuster | ![Gobuster](https://img.shields.io/badge/Gobuster-F39C12?style=for-the-badge&logoColor=white) |
+| DirBuster | ![DirBuster](https://img.shields.io/badge/DirBuster-8E44AD?style=for-the-badge&logoColor=white) |
+| SQLmap | ![SQLmap](https://img.shields.io/badge/SQLmap-C0392B?style=for-the-badge&logoColor=white) |
+| John the Ripper | ![John](https://img.shields.io/badge/John%20The%20Ripper-000000?style=for-the-badge&logo=hackthebox&logoColor=white) |
+| Medusa | ![Medusa](https://img.shields.io/badge/Medusa-17202A?style=for-the-badge&logoColor=white) |
+| EtherApe | ![EtherApe](https://img.shields.io/badge/EtherApe-2ECC71?style=for-the-badge&logoColor=white) |
+| Airgeddon | ![Airgeddon](https://img.shields.io/badge/Airgeddon-7F8C8D?style=for-the-badge&logoColor=white) |
+| Autopsy | ![Autopsy](https://img.shields.io/badge/Autopsy-2980B9?style=for-the-badge&logoColor=white) |
+| ADB | ![ADB](https://img.shields.io/badge/ADB-3DDC84?style=for-the-badge&logo=android&logoColor=white) |
+| Xplico | ![Xplico](https://img.shields.io/badge/Xplico-222222?style=for-the-badge&logoColor=white) |
+
+---
 
 🚀 *Always eager to learn & collaborate!*
 
