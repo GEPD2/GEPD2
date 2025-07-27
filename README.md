@@ -1,5 +1,3 @@
-### Hi there, I'm @GEPD2 👋
-
 I'm a passionate **developer & cybersecurity enthusiast** with a strong interest in **penetration testing**. I love writing efficient and scalable code while constantly learning new technologies. 
 
 ---
