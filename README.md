@@ -19,7 +19,7 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 #### 🔹 Cybersecurity & Penetration Testing
 - Learning **ethical hacking** & **penetration testing** 🔒
 - Exploring **network security** & **offensive security**
-- Planning to obtain a certification soon! 🎯
+- Planning to obtain more certifications soon! 🎯
 
 ---
 ### 📂 My Projects
