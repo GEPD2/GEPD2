@@ -33,6 +33,7 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 #### 🔹 Favorite Operating Systems
 ![Parrot OS](https://img.shields.io/badge/Parrot%20OS-0D9D58?style=for-the-badge&logo=parrotos&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Kali Purple](https://img.shields.io/badge/Kali%20Purple-7F00FF?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Qubes OS](https://img.shields.io/badge/Qubes%20OS-3874D8?style=for-the-badge&logo=qubesos&logoColor=white)
 ![Tails OS](https://img.shields.io/badge/Tails%20OS-56347C?style=for-the-badge&logo=tails&logoColor=white)
 ![BlackArch](https://img.shields.io/badge/BlackArch-222222?style=for-the-badge&logo=archlinux&logoColor=white)
