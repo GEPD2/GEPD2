@@ -40,7 +40,7 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 
 ---
 ### 📜 Certifications (In Progress)
-🎓 Planning to obtain soon! 
+📄 [View Certificate](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NVMVKGJIWA.pdf)
 
 ---
 ## 🧰 Tools I Use
