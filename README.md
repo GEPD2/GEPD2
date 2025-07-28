@@ -42,10 +42,6 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ---
-### 📜 Certifications (In Progress)
-📄 [View Certificate](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-NVMVKGJIWA.pdf)
-
----
 ## 🧰 Tools I Use
 
 | Tool | Badge |
