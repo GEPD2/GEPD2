@@ -68,13 +68,6 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 
 🚀 *Always eager to learn & collaborate!*
 
----
-### 📫 Connect with Me
-[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GEPD2)
-[Tryhackme](https://tryhackme.com/p/GEPD1)
-[HTB: GEPD1](https://app.hackthebox.com/profile/GEPD1)
-- More platforms soon!
-
 
 <!---
 GEPD2/GEPD2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
