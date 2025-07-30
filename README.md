@@ -18,6 +18,9 @@ I'm a passionate **developer & cybersecurity enthusiast** with a strong interest
 - Exploring **network security** & **offensive security**
 - Planning to obtain more certifications soon! 🎯
 
+#### Languages in progress
+- Learning ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+
 ---
 ### 📂 My Projects
 
