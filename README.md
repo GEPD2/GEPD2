@@ -289,8 +289,6 @@ Specialized Areas:
 
 ### 🔍 *"In God we trust, all others we monitor"* 🔍
 
-[![Visitor Count](https://visitcount.itsvg.in/api?id=GEPD2&icon=5&color=1)](https://visitcount.itsvg.in)
-
 </div>
 
 
