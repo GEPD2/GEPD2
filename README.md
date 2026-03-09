@@ -1,128 +1,137 @@
 <div align="center">
 
-# 🛡️ Security Researcher & Developer
+```
+╔══════════════════════════════════════════════════════════════════╗
+║          GEPD2 :: SECURITY RESEARCHER & CTI OPERATOR            ║
+║          Dark Web Intelligence | Red & Blue Team | PQC          ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
-[![Profile Views](https://komarev.com/ghpvc/?username=GEPD2&label=Profile%20Views&color=red&style=flat-square)](https://github.com/GEPD2)
-[![GitHub Followers](https://img.shields.io/github/followers/GEPD2?label=Followers&style=social)](https://github.com/GEPD2?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/GEPD2?style=social)](https://github.com/GEPD2?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=GEPD2&label=PROFILE+VIEWS&color=00ff41&style=flat-square)](https://github.com/GEPD2)
+[![GitHub Followers](https://img.shields.io/github/followers/GEPD2?label=FOLLOWERS&style=flat-square&color=00ff41&labelColor=0d1117)](https://github.com/GEPD2?tab=followers)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-TOP%202%25%20%7C%200xB%20MASTER-00ff41?style=flat-square&labelColor=0d1117)](https://tryhackme.com/p/GEPD1)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## OPERATOR PROFILE
 
 ```python
-class CybersecurityOperator:
+class CTIOperator:
     def __init__(self):
-        self.name = "GEPD2"
-        self.role = "Security Researcher & Developer"
-        self.education = "Ionian University - Computer Science"
-        self.specialization = "Cybersecurity"
-        
-    def current_focus(self):
+        self.handle       = "GEPD2"
+        self.role         = "Security Researcher | CTI Analyst | Dark Web Intelligence"
+        self.education    = "Ionian University — Computer Science (2023–2027)"
+        self.location     = "Corfu, Greece"
+        self.contact      = "georgios.efthymiou@tuta.com"  # PGP preferred
+
+    def current_operations(self):
         return {
-            "research": "Post-Quantum Cryptography",
-            "operations": ["Red Team", "Blue Team", "Digital Forensics"],
-            "hunting": "Bug Bounty Programs",
-            "methodology": "Intelligence-driven security analysis"
+            "primary"   : "Dark Web Monitoring & Threat Intelligence (AGENTS-HQ)",
+            "research"  : "Post-Quantum Cryptography — quantum-resistant systems",
+            "offensive" : ["Red Team Ops", "Exploit Development", "Bug Bounty"],
+            "defensive" : ["Digital Forensics", "Incident Response", "Threat Hunting"],
+            "platform"  : "Autonomous AI Agent Intelligence Platform (local, air-gap capable)"
         }
-    
-    def work_environment(self):
-        return ["Parrot OS", "Kali Linux", "BlackArch", "Qubes OS"]
+
+    def opsec_stack(self):
+        return {
+            "daily_ops"   : ["Parrot OS", "Kali Linux", "BlackArch", "Kali Purple"],
+            "high_opsec"  : ["Qubes OS", "Tails OS"],
+            "methodology" : "Intelligence tradecraft — methodical, precise, documented"
+        }
+
+    def status(self):
+        return "[ ACTIVE ] — Building. Researching. Hunting."
 ```
-
-🎓 **Computer Science Student** at **Ionian University** with deep focus on **offensive and defensive cybersecurity operations**
-
-🔍 **Current Operations:**
-- 🐛 Active bug bounty hunter - vulnerability research across web applications and infrastructure
-- 🔬 Post-quantum cryptography research - exploring quantum-resistant cryptographic systems
-- 🔴 Red team operations - penetration testing, exploit development, attack simulation
-- 🔵 Blue team defense - incident response, forensic analysis, threat hunting
-- 🎯 CTF competitor - continuous skill development through practical challenges
-
-💡 **Approach:** Intelligence tradecraft applied to cybersecurity - methodical analysis, precision execution, comprehensive documentation
 
 ---
 
-## 🎯 Featured Projects
+## FEATURED OPERATIONS
 
-### 🔐 Security Research & Tools
+### Intelligence & Dark Web
 
 <table>
 <tr>
 <td width="50%">
 
-**[🔒 Crypto Toolkit](https://github.com/GEPD2/encryption_app)**
+**[AGENTS-HQ](https://github.com/GEPD2)**
 
-Comprehensive cryptographic operations suite demonstrating classical and modern encryption techniques.
+Autonomous AI intelligence platform — local, air-gap capable, zero data exfiltration.
 
-**Tech:** Python  
-**Features:** Caesar, Vigenère, RSA, hashing algorithms  
-**Purpose:** Research base for post-quantum crypto analysis
+**Stack:** Python, n8n, ChromaDB, ollama, Docker  
+**Models:** DeepSeek-R1:8b, phi3:mini, nomic-embed-text  
+**Agents:** Task Recon · RAG KB · Dark Web Monitor · Ghidra RE · Crypto Analysis · News Intel  
+**Status:** `ACTIVE BUILD`
 
 </td>
+<td width="50%">
+
+**[Crypto Toolkit](https://github.com/GEPD2/encryption_app)**
+
+Cryptographic operations suite — classical to modern, PQC research base.
+
+**Stack:** Python  
+**Covers:** Caesar, Vigenère, RSA, hashing, entropy analysis  
+**Purpose:** Post-quantum cryptography research & analysis  
+**Status:** `OPERATIONAL`
+
+</td>
+</tr>
+</table>
+
+### Offensive Security
+
+<table>
+<tr>
 <td width="50%">
 
 **[⚡ Automation Arsenal](https://github.com/GEPD2/automation_tool)**
 
-Offensive security automation framework for network reconnaissance and vulnerability testing.
+Offensive security automation — recon to exploitation.
 
-**Tech:** C, Bash, Python  
+**Stack:** C, Python, Bash  
 **Features:** Nmap automation, XSS testing, XML injection, UDP simulation  
-**Usage:** Controlled lab environments only
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-**[🎖️ CTF Toolbox](https://github.com/GEPD2/CTF-scripts)**
-
-Competition-grade exploitation scripts for reconnaissance, enumeration, and exploitation.
-
-**Tech:** Bash  
-**Features:** Automated recon, enumeration, exploitation workflows  
-**Context:** CTF competitions, penetration testing labs
+**Context:** Controlled lab environments only  
+**Status:** `OPERATIONAL`
 
 </td>
 <td width="50%">
 
-**[🌐 Web Attack Framework](https://github.com/GEPD2/web_csan_enumeration_and_attack_tool)**
+**[Web Attack Framework](https://github.com/GEPD2/web_csan_enumeration_and_attack_tool)**
 
-Integrated web security testing framework combining multiple attack vectors.
+Integrated web security testing — scanning to credential attacks.
 
-**Tech:** Python  
+**Stack:** Python  
 **Features:** Automated scanning, web enumeration, Hydra integration  
-**Purpose:** Web application vulnerability assessment
+**Context:** Web application vulnerability assessment  
+**Status:** `OPERATIONAL`
 
 </td>
 </tr>
-</table>
-
-### 🧪 Development Projects
-
-<table>
 <tr>
 <td width="50%">
 
-**[🛰️ Satellite Simulator](https://github.com/GEPD2/satellite_simulation)**
+**[CTF Toolbox](https://github.com/GEPD2/CTF-scripts)**
 
-Orbital mechanics simulation with data transmission protocols.
+Competition-grade exploitation scripts — recon through post-exploitation.
 
-**Tech:** Python  
-**Features:** Orbital calculations, communication protocols, telemetry
+**Stack:** Bash  
+**Features:** Automated recon, enumeration, exploitation workflows  
+**Context:** CTF competitions · TryHackMe Top 2% · HTB  
+**Status:** `OPERATIONAL`
 
 </td>
 <td width="50%">
 
-**[💊 Medical Intelligence App](https://github.com/GEPD2/project_python_2)**
+**[Satellite Simulator](https://github.com/GEPD2/satellite_simulation)**
 
-Computer vision system for pharmaceutical identification.
+Orbital mechanics with communication protocol simulation.
 
-**Tech:** Python  
-**Features:** Image recognition, web scraping, drug information retrieval
+**Stack:** Python  
+**Features:** Orbital calculations, telemetry, data transmission protocols  
+**Status:** `COMPLETE`
 
 </td>
 </tr>
@@ -130,155 +139,151 @@ Computer vision system for pharmaceutical identification.
 
 ---
 
-## 🛠️ Technical Arsenal
+## TECHNICAL ARSENAL
 
-### Programming & Scripting
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+### Languages & Scripting
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff41)
+![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=00ff41)
+![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=00ff41)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=00ff41)
+![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00ff41)
+![PHP](https://img.shields.io/badge/PHP-0d1117?style=flat-square&logo=php&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=00ff41)
+![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00ff41)
 
-### Security Tools & Frameworks
+### Intelligence & OSINT
+![Tor](https://img.shields.io/badge/Tor_Network-0d1117?style=flat-square&logo=torproject&logoColor=00ff41)
+![OSINT](https://img.shields.io/badge/OSINT-0d1117?style=flat-square&logoColor=00ff41)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0d1117?style=flat-square&logoColor=00ff41)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0d1117?style=flat-square&logoColor=00ff41)
+![n8n](https://img.shields.io/badge/n8n-0d1117?style=flat-square&logo=n8n&logoColor=00ff41)
+![ollama](https://img.shields.io/badge/ollama-0d1117?style=flat-square&logoColor=00ff41)
 
-**Network Analysis & Reconnaissance**  
-![Nmap](https://img.shields.io/badge/Nmap-4F8A10?style=for-the-badge&logo=nmap&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![EtherApe](https://img.shields.io/badge/EtherApe-2ECC71?style=for-the-badge&logoColor=white)
+### Network & Reconnaissance
+![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=00ff41)
+![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=00ff41)
+![EtherApe](https://img.shields.io/badge/EtherApe-0d1117?style=flat-square&logoColor=00ff41)
 
-**Web Application Security**  
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![SQLmap](https://img.shields.io/badge/SQLmap-C0392B?style=for-the-badge&logoColor=white)
+### Web Application Security
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logoColor=00ff41)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-0d1117?style=flat-square&logo=owasp&logoColor=00ff41)
+![SQLmap](https://img.shields.io/badge/SQLmap-0d1117?style=flat-square&logoColor=00ff41)
+![Gobuster](https://img.shields.io/badge/Gobuster-0d1117?style=flat-square&logoColor=00ff41)
 
-**Exploitation & Post-Exploitation**  
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Hydra](https://img.shields.io/badge/Hydra-34495E?style=for-the-badge&logoColor=white)
-![Gobuster](https://img.shields.io/badge/Gobuster-F39C12?style=for-the-badge&logoColor=white)
+### Exploitation & Post-Exploitation
+![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=flat-square&logoColor=00ff41)
+![Hydra](https://img.shields.io/badge/Hydra-0d1117?style=flat-square&logoColor=00ff41)
 
-**Cryptography & Password Cracking**  
-![Hashcat](https://img.shields.io/badge/Hashcat-5E2750?style=for-the-badge&logoColor=white)
-![John the Ripper](https://img.shields.io/badge/John_the_Ripper-000000?style=for-the-badge&logoColor=white)
+### Cryptography & Password Analysis
+![Hashcat](https://img.shields.io/badge/Hashcat-0d1117?style=flat-square&logoColor=00ff41)
+![John the Ripper](https://img.shields.io/badge/John_the_Ripper-0d1117?style=flat-square&logoColor=00ff41)
 
-**Digital Forensics**  
-![Autopsy](https://img.shields.io/badge/Autopsy-2980B9?style=for-the-badge&logoColor=white)
-![Xplico](https://img.shields.io/badge/Xplico-222222?style=for-the-badge&logoColor=white)
+### Digital Forensics
+![Autopsy](https://img.shields.io/badge/Autopsy-0d1117?style=flat-square&logoColor=00ff41)
+![Xplico](https://img.shields.io/badge/Xplico-0d1117?style=flat-square&logoColor=00ff41)
 
-**Wireless Security**  
-![Airgeddon](https://img.shields.io/badge/Airgeddon-7F8C8D?style=for-the-badge&logoColor=white)
+### Wireless Security
+![Airgeddon](https://img.shields.io/badge/Airgeddon-0d1117?style=flat-square&logoColor=00ff41)
 
-### Operating Systems & Environments
+### Operating Systems
 
-**Primary Security Distributions**  
-![Parrot OS](https://img.shields.io/badge/Parrot_OS-0D9D58?style=for-the-badge&logo=parrotos&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Kali Purple](https://img.shields.io/badge/Kali_Purple-7F00FF?style=for-the-badge&logo=kalilinux&logoColor=white)
-![BlackArch](https://img.shields.io/badge/BlackArch-222222?style=for-the-badge&logo=archlinux&logoColor=white)
+**Operations**
+![Parrot OS](https://img.shields.io/badge/Parrot_OS-0d1117?style=flat-square&logoColor=00ff41)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=00ff41)
+![Kali Purple](https://img.shields.io/badge/Kali_Purple-0d1117?style=flat-square&logo=kalilinux&logoColor=00ff41)
+![BlackArch](https://img.shields.io/badge/BlackArch-0d1117?style=flat-square&logo=archlinux&logoColor=00ff41)
 
-**Privacy & Security Focused**  
-![Qubes OS](https://img.shields.io/badge/Qubes_OS-3874D8?style=for-the-badge&logo=qubesos&logoColor=white)
-![Tails](https://img.shields.io/badge/Tails_OS-56347C?style=for-the-badge&logo=tails&logoColor=white)
-
-**Development & General Purpose**  
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=GEPD2&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff0000&icon_color=ff0000&text_color=ffffff&include_all_commits=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GEPD2&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff0000&text_color=ffffff&langs_count=8"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=GEPD2&theme=radical&hide_border=true&background=0d1117&ring=ff0000&fire=ff0000&currStreakLabel=ff0000)
-
-</div>
+**High OPSEC**
+![Qubes OS](https://img.shields.io/badge/Qubes_OS-0d1117?style=flat-square&logoColor=00ff41)
+![Tails OS](https://img.shields.io/badge/Tails_OS-0d1117?style=flat-square&logoColor=00ff41)
 
 ---
 
-## 🎯 2025 Operational Objectives
-
-**Security Research**
-- [ ] Publish post-quantum cryptography research findings
-- [ ] Expand vulnerability research across multiple attack surfaces
-- [ ] Contribute to open-source security tool development
-
-**Bug Bounty & CVE**
-- [ ] Active participation on HackerOne, Bugcrowd, Synack
-- [ ] Target: Discover and responsibly disclose critical vulnerabilities
-- [ ] Build public security researcher profile
-
-**Certifications & Training**
-- [ ] OSCP (Offensive Security Certified Professional)
-- [ ] CEH (Certified Ethical Hacker)
-- [ ] eJPT (eLearnSecurity Junior Penetration Tester)
-- [ ] Advanced digital forensics certification
-
-**Competition & Community**
-- [ ] Active CTF participation (HackTheBox, TryHackMe, picoCTF)
-- [ ] Security conference attendance and networking
-- [ ] Technical blog posts and vulnerability write-ups
-
----
-
-## 🏆 Skills & Competencies
+## INTELLIGENCE COMPETENCIES
 
 ```yaml
+Cyber Threat Intelligence:
+  - Dark Web Monitoring & .onion surface analysis
+  - Threat Actor Profiling & TTP mapping (MITRE ATT&CK)
+  - IOC extraction, enrichment & correlation
+  - Automated CTI pipeline development (AGENTS-HQ)
+  - OSINT — passive collection, zero interaction
+
 Offensive Security:
-  - Penetration Testing (Web, Network, Mobile)
+  - Penetration Testing — Web, Network, Infrastructure
   - Exploit Development & Weaponization
-  - Social Engineering & OSINT
   - Red Team Operations & Adversary Simulation
-  - Vulnerability Research & Analysis
+  - Bug Bounty — HackerOne, Bugcrowd
+  - CTF — TryHackMe Top 2% (0xB MASTER, 179 rooms) | HackTheBox
 
 Defensive Security:
   - Incident Response & Threat Hunting
   - Digital Forensics & Malware Analysis
-  - Security Monitoring & SIEM
-  - Blue Team Defense Strategies
-  - Threat Intelligence Analysis
-
-Specialized Areas:
-  - Post-Quantum Cryptography Research
+  - Blue Team Defense & SIEM
   - Network Protocol Analysis
-  - Web Application Security (OWASP Top 10)
+
+Specialized Research:
+  - Post-Quantum Cryptography — quantum-resistant systems
   - Wireless Security Assessment
   - Reverse Engineering
+  - AI Agent Development for security automation
 ```
 
 ---
 
-## 📫 Secure Communication
+## OPERATIONAL OBJECTIVES
+
+**Dark Web Intelligence**
+- [ ] AGENTS-HQ Agent-10: Dark Web Monitor — operational
+- [ ] Build automated .onion crawler with Tor SOCKS5 routing
+- [ ] Deploy IOC pipeline → ChromaDB → DeepSeek classification
+- [ ] Publish first dark web intelligence brief
+
+**Security Research**
+- [ ] Publish post-quantum cryptography research findings
+- [ ] Responsible disclosure — critical vulnerability via HackerOne/Bugcrowd
+- [ ] Contribute to open-source CTI tooling
+
+**Certifications**
+- [ ] PNPT — TCM Security
+- [ ] CompTIA CySA+
+- [ ] OSCP — Offensive Security
+
+**Competition**
+- [ ] Hellenic University Hack 2026
+- [ ] Active CTF — HackTheBox, TryHackMe, picoCTF
+- [ ] Security conference attendance & research presentation
+
+---
+
+## ANALYTICS
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gepd1-4520883b1)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/profile/GEPD1)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/GEPD1)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=GEPD2&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=aaaaaa&include_all_commits=true&count_private=true"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GEPD2&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=aaaaaa&langs_count=8"/>
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=GEPD2&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=aaaaaa&dates=555555)
 
 </div>
 
 ---
 
-## 💭 Security Philosophy
-
-> *"Security is not a product, but a process. It's not something you buy, but something you do."*  
-> **— Bruce Schneier**
+## SECURE COMMS
 
 <div align="center">
 
-**Ethical hacking for a secure digital world**
+[![Email](https://img.shields.io/badge/georgios.efthymiou@tuta.com-0d1117?style=flat-square&logo=tutanota&logoColor=00ff41)](mailto:georgios.efthymiou@tuta.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/gepd1-4520883b1)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/profile/GEPD1)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/GEPD1)
 
-*All security research and tool development is conducted in controlled environments for educational purposes and responsible disclosure.*
+*Encrypted communication preferred — tuta.com supports end-to-end encryption natively.*
 
 </div>
 
@@ -286,12 +291,11 @@ Specialized Areas:
 
 <div align="center">
 
-### 🔍 *"In God we trust, all others we monitor"* 🔍
+```
+[ ALL SECURITY RESEARCH CONDUCTED IN CONTROLLED ENVIRONMENTS ]
+[ PASSIVE COLLECTION ONLY — ZERO DATA EXFILTRATION — AIR-GAP CAPABLE ]
+
+"In God we trust. All others we monitor."
+```
 
 </div>
-
-
-<!---
-GEPD2/GEPD2 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
