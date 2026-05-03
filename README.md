@@ -263,45 +263,6 @@ Research:
 
 ---
 
-## AGENTS-HQ ARCHITECTURE
-
-```
-                    ┌─────────────────────────────┐
-                    │      n8n ORCHESTRATOR        │
-                    │   (cron · triggers · chains) │
-                    └──────────────┬──────────────┘
-                                   │
-          ┌────────────────────────┼────────────────────────┐
-          │                        │                        │
-          ▼                        ▼                        ▼
-  ┌───────────────┐      ┌─────────────────┐      ┌────────────────┐
-  │  Agent-02     │      │   Agent-10      │      │  Agent-08      │
-  │  Task Recon   │      │   Dark Web      │      │  News Intel    │
-  │  DeepSeek-R1  │      │   Monitor       │      │  Mistral:7b    │
-  └───────┬───────┘      └────────┬────────┘      └───────┬────────┘
-          │                       │                        │
-          └───────────────────────┼────────────────────────┘
-                                  │
-                    ┌─────────────▼─────────────┐
-                    │        ChromaDB            │
-                    │   Vector Knowledge Base    │
-                    │  security_docs · darkweb   │
-                    └─────────────┬─────────────┘
-                                  │
-          ┌───────────────────────┼───────────────────────┐
-          │                       │                       │
-          ▼                       ▼                       ▼
-  ┌───────────────┐     ┌─────────────────┐     ┌────────────────┐
-  │  Agent-06     │     │   Agent-07      │     │  Agent-03      │
-  │  Ghidra RE    │     │   Crypto Audit  │     │  RAG Store     │
-  │  DeepSeek-R1  │     │   DeepSeek-R1   │     │  phi3:mini     │
-  └───────────────┘     └─────────────────┘     └────────────────┘
-
-  ALL MODELS LOCAL · NO EXTERNAL API KEYS · AIR-GAP CAPABLE
-```
-
----
-
 ## OPERATIONAL OBJECTIVES
 
 **Threat Intelligence Platform**
