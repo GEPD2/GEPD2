@@ -53,7 +53,7 @@ class SecurityResearcher:
 <tr>
 <td width="50%">
 
-**[🌐 AGENTS-HQ]([https://github.com/GEPD2/agents-hq.git])**
+**[🌐 AGENTS-HQ]([https://github.com/GEPD2/agents-hq])**
 
 Autonomous AI intelligence platform — local LLM stack, zero data exfiltration, air-gap capable.
 
