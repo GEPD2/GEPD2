@@ -266,25 +266,25 @@ Research:
 ## OPERATIONAL OBJECTIVES
 
 **Threat Intelligence Platform**
-- [ ] Agent-10 — Dark Web Monitor: Tor-routed crawler + IOC pipeline → operational
-- [ ] ChromaDB `darkweb_intel` collection — structured threat data
-- [ ] DeepSeek-R1 threat classifier — MITRE ATT&CK mapping
-- [ ] Agent-04 — Master Orchestrator: LangGraph full-chain pipeline
+- [ ] Agent-10 Dark Web Monitor: Tor-routed crawler + IOC pipeline → operational
+- [ ] ChromaDB `darkweb_intel` collection structured threat data
+- [ ] DeepSeek-R1 threat classifier for MITRE ATT&CK mapping
+- [ ] Agent-04 for Master Orchestrator: LangGraph full-chain pipeline
 
 **Security Research**
 - [ ] Publish post-quantum cryptography research findings
-- [ ] Responsible disclosure — critical vulnerability via HackerOne/Bugcrowd
-- [ ] Dark web telemetry analysis — methodology writeup
+- [ ] Responsible disclosure for critical vulnerability via HackerOne/Bugcrowd
+- [ ] Dark web telemetry analysis methodology writeup
 
 **Certifications**
-- [ ] PNPT — TCM Security (Practical Network Penetration Tester)
-- [ ] CompTIA CySA+ — Cybersecurity Analyst
-- [ ] OSCP — Offensive Security Certified Professional
+- [ ] PNPT for TCM Security (Practical Network Penetration Tester)
+- [ ] CompTIA CySA+ for Cybersecurity Analyst
+- [ ] OSCP for Offensive Security Certified Professional
 
 **Competition & Community**
 - [ ] Hellenic University Hack 2026
-- [ ] Security conference — attendance & research presentation
-- [ ] Technical writeups — CTF solutions & vulnerability research
+- [ ] Security conference attendance & research presentation
+- [ ] Technical writeups for CTF solutions & vulnerability research
 
 ---
 
@@ -297,7 +297,7 @@ Research:
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/profile/GEPD1)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/GEPD1)
 
-*Encrypted communication preferred — tuta.com natively supports end-to-end encryption.*
+*Encrypted communication preferred to tuta.com natively supports end-to-end encryption.*
 
 </div>
 
