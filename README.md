@@ -152,19 +152,19 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 ## RESEARCH
 
 ```
-[ IN PROGRESS ]  Post-Quantum Cryptography — quantum-resistant system analysis
+[ IN PROGRESS ]  Post-Quantum Cryptography and quantum-resistant system analysis
                  Exploring CRYSTALS-Kyber, CRYSTALS-Dilithium, SPHINCS+
                  Focus: real-world implementation challenges and migration paths
 
 [ IN PROGRESS ]  Autonomous CTI Platform (AGENTS-HQ)
                  Local AI agent stack for threat intelligence automation
-                 Zero external API dependency — fully air-gap capable
+                 Zero external API dependency with fully air-gap capable
 
 [ PLANNED ]      Dark Web Telemetry Analysis
                  Passive collection methodology and IOC enrichment pipeline
 
 [ PLANNED ]      Vulnerability Research & Responsible Disclosure
-                 Active bug bounty — HackerOne · Bugcrowd
+                 Active bug bounty on HackerOne, Bugcrowd, YesWeHack, Intigrity
 ```
 
 ---
@@ -240,13 +240,13 @@ Cyber Threat Intelligence:
   - Threat actor profiling & TTP analysis (MITRE ATT&CK)
   - IOC extraction, enrichment & correlation
   - Automated CTI pipeline development
-  - OSINT — open-source intelligence collection
+  - OSINT, open-source intelligence collection
 
 Offensive Security:
-  - Penetration testing — web, network, infrastructure
+  - Penetration testing on web, network, infrastructure
   - Exploit development & red team operations
-  - Bug bounty — HackerOne, Bugcrowd
-  - CTF — TryHackMe Top 2% (0xB MASTER, 179 rooms) | HackTheBox
+  - Bug bounty: HackerOne, Bugcrowd, YesWeHack, Intigrity
+  - CTF: TryHackMe Top 2% (0xB MASTER, 179 rooms) | HackTheBox
 
 Defensive Security:
   - Incident response & threat hunting
@@ -255,7 +255,7 @@ Defensive Security:
   - Network protocol analysis
 
 Research:
-  - Post-quantum cryptography — NIST PQC standards
+  - Post-quantum cryptography on NIST PQC standards
   - Reverse engineering & binary analysis
   - AI agent development for security automation
   - Wireless security assessment
@@ -276,7 +276,7 @@ Research:
 - [ ] Responsible disclosure for critical vulnerability via HackerOne/Bugcrowd
 - [ ] Dark web telemetry analysis methodology writeup
 
-**Certifications**
+**Future Certifications**
 - [ ] PNPT for TCM Security (Practical Network Penetration Tester)
 - [ ] CompTIA CySA+ for Cybersecurity Analyst
 - [ ] OSCP for Offensive Security Certified Professional
