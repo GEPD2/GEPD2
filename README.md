@@ -53,7 +53,7 @@ class SecurityResearcher:
 <tr>
 <td width="50%">
 
-**[🌐 AGENTS-HQ](https://github.com/GEPD2/agents-hq)**
+**[AGENTS-HQ](https://github.com/GEPD2/agents-hq)**
 
 Autonomous AI intelligence platform — local LLM stack, zero data exfiltration, air-gap capable.
 
@@ -65,9 +65,9 @@ Autonomous AI intelligence platform — local LLM stack, zero data exfiltration,
 </td>
 <td width="50%">
 
-**[🔐 Crypto Toolkit](https://github.com/GEPD2/encryption_app)**
+**[Crypto Toolkit](https://github.com/GEPD2/encryption_app)**
 
-Cryptographic operations suite — classical algorithms to modern encryption, PQC research base.
+Cryptographic operations suite with classical algorithms to modern encryption, PQC research base.
 
 **Stack:** Python  
 **Covers:** Caesar · Vigenère · RSA · Hashing · Entropy Analysis  
@@ -84,9 +84,9 @@ Cryptographic operations suite — classical algorithms to modern encryption, PQ
 <tr>
 <td width="50%">
 
-**[⚡ Automation Arsenal](https://github.com/GEPD2/automation_tool)**
+**[Automation Arsenal](https://github.com/GEPD2/automation_tool)**
 
-Offensive security automation — network reconnaissance through vulnerability testing.
+Offensive security automation for network reconnaissance through vulnerability testing.
 
 **Stack:** C · Python · Bash  
 **Features:** Nmap automation · XSS testing · XML injection · UDP simulation  
@@ -96,9 +96,9 @@ Offensive security automation — network reconnaissance through vulnerability t
 </td>
 <td width="50%">
 
-**[🌐 Web Attack Framework](https://github.com/GEPD2/web_csan_enumeration_and_attack_tool)**
+**[Web Attack Framework](https://github.com/GEPD2/web_csan_enumeration_and_attack_tool)**
 
-Integrated web security testing — automated scanning through credential analysis.
+Integrated web security testing with automated scanning through credential analysis.
 
 **Stack:** Python  
 **Features:** Web enumeration · Automated scanning · Hydra integration  
@@ -110,9 +110,9 @@ Integrated web security testing — automated scanning through credential analys
 <tr>
 <td width="50%">
 
-**[🎖️ CTF Toolbox](https://github.com/GEPD2/CTF-scripts)**
+**[CTF Toolbox](https://github.com/GEPD2/CTF-scripts)**
 
-Competition-grade scripts — reconnaissance through post-exploitation phases.
+Competition-grade scripts for reconnaissance through post-exploitation phases.
 
 **Stack:** Bash  
 **Features:** Automated recon · Enumeration · Exploitation workflows  
@@ -122,7 +122,7 @@ Competition-grade scripts — reconnaissance through post-exploitation phases.
 </td>
 <td width="50%">
 
-**[🛰️ Satellite Simulator](https://github.com/GEPD2/satellite_simulation)**
+**[Satellite Simulator](https://github.com/GEPD2/satellite_simulation)**
 
 Orbital mechanics simulation with data transmission protocols.
 
