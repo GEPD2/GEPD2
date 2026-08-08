@@ -22,17 +22,17 @@ class SecurityResearcher:
     def __init__(self):
         self.handle       = "GEPD2"
         self.role         = "Security Researcher | Cyber Threat Intelligence | Post-Quantum Cryptography"
-        self.education    = "Ionian University — Computer Science (2023–2027)"
+        self.education    = "Ionian University Computer Science (2023–2027)"
         self.location     = "Corfu, Greece"
         self.contact      = "georgios.efthymiou@tuta.com"
 
     def current_operations(self):
         return {
             "cti"       : "Threat actor tracking, IOC pipelines, dark web intelligence collection",
-            "research"  : "Post-Quantum Cryptography — quantum-resistant cryptographic systems",
+            "research"  : "Post-Quantum Cryptography and quantum-resistant cryptographic systems",
             "offensive" : ["Red Team Ops", "Exploit Development", "Bug Bounty"],
             "defensive" : ["Digital Forensics", "Incident Response", "Threat Hunting"],
-            "platform"  : "AGENTS-HQ — autonomous AI agent intelligence platform (local, air-gap capable)"
+            "platform"  : "AGENTS-HQ is autonomous AI agent intelligence platform (local, air-gap capable)"
         }
 
     def opsec_stack(self):
@@ -55,7 +55,7 @@ class SecurityResearcher:
 
 **[AGENTS-HQ](https://github.com/GEPD2/agents-hq)**
 
-Autonomous AI intelligence platform — local LLM stack, zero data exfiltration, air-gap capable.
+Autonomous AI intelligence platform is a local LLM stack, with zero data exfiltration, air-gap capable.
 
 **Stack:** Python · n8n · ChromaDB · ollama · Docker  
 **Models:** DeepSeek-R1:8b · phi3:mini · nomic-embed-text  
