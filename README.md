@@ -294,7 +294,7 @@ Research:
 
 [![Email](https://img.shields.io/badge/georgios.efthymiou@tuta.com-0d1117?style=flat-square&logo=tutanota&logoColor=00ff41)](mailto:georgios.efthymiou@tuta.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/gepd1-4520883b1)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/profile/GEPD1)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/public/users/2158940)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/GEPD1)
 
 *Encrypted communication preferred to tuta.com natively supports end-to-end encryption.*
