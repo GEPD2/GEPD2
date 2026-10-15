@@ -140,7 +140,6 @@ Orbital mechanics simulation with data transmission protocols.
 ## THREAT INTELLIGENCE WORK
 
 ```
-MITRE ATT&CK Mapping        — TTP classification and adversary behavior modeling
 IOC Extraction Pipelines    — automated extraction of IPs, hashes, domains, CVEs
 Dark Web Collection         — passive .onion surface monitoring, paste site analysis
 Threat Actor Profiling      — actor profiles and infrastructure correlation
@@ -187,7 +186,6 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 
 ### CTI & Intelligence Platform
 ![Tor](https://img.shields.io/badge/Tor_Network-0d1117?style=flat-square&logo=torproject&logoColor=00ff41)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0d1117?style=flat-square&logoColor=00ff41)
 ![n8n](https://img.shields.io/badge/n8n-0d1117?style=flat-square&logo=n8n&logoColor=00ff41)
 ![ollama](https://img.shields.io/badge/ollama-0d1117?style=flat-square&logoColor=00ff41)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=00ff41)
@@ -196,6 +194,7 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 ![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=00ff41)
 ![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=00ff41)
 ![EtherApe](https://img.shields.io/badge/EtherApe-0d1117?style=flat-square&logoColor=00ff41)
+![Snort](https://img.shields.io/badge/Snort-0d1117?style=flat-square&logoColor=00ff41)
 
 ### Web Application Security
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=flat-square&logoColor=00ff41)
@@ -240,7 +239,7 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 ```yaml
 Cyber Threat Intelligence:
   - Dark web monitoring & passive .onion collection
-  - Threat actor profiling & TTP analysis (MITRE ATT&CK)
+  - Threat actor profiling
   - IOC extraction, enrichment & correlation
   - Automated CTI pipeline development
   - OSINT, open-source intelligence collection
@@ -256,6 +255,7 @@ Digital Forensics (building):
   - Autopsy, YARA rules
   - Evidence integrity and chain of custody (learning)
   - Network protocol analysis with Wireshark
+  - SIEM searches and Snort IDS (labs)
 
 Research:
   - Post-quantum cryptography: CRYSTALS-Kyber / ML-KEM (FIPS 203)
