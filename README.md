@@ -2,14 +2,14 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║              GEPD2 :: SECURITY RESEARCHER                       ║
-║    Cyber Threat Intelligence | Offensive & Defensive Security   ║
+║                   GEPD2 :: SECURITY RESEARCHER                   ║
+║     CTI | Offensive Security | Digital Forensics (building)      ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
 [![Profile Views](https://komarev.com/ghpvc/?username=GEPD2&label=PROFILE+VIEWS&color=00ff41&style=flat-square)](https://github.com/GEPD2)
 [![GitHub Followers](https://img.shields.io/github/followers/GEPD2?label=FOLLOWERS&style=flat-square&color=00ff41&labelColor=0d1117)](https://github.com/GEPD2?tab=followers)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-TOP%202%25%20%7C%200xB%20MASTER-00ff41?style=flat-square&labelColor=0d1117)](https://tryhackme.com/p/GEPD1)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-TOP%202%25-00ff41?style=flat-square&labelColor=0d1117)](https://tryhackme.com/p/GEPD1)
 
 </div>
 
@@ -23,6 +23,7 @@ class SecurityResearcher:
         self.handle       = "GEPD2"
         self.role         = "Security Researcher | Cyber Threat Intelligence | Post-Quantum Cryptography"
         self.education    = "Ionian University Computer Science (2023–2027)"
+        self.affiliation  = "Working closely with NMSLab on cybersecurity"
         self.location     = "Corfu, Greece"
         self.contact      = "georgios.efthymiou@tuta.com"
 
@@ -30,16 +31,16 @@ class SecurityResearcher:
         return {
             "cti"       : "Threat actor tracking, IOC pipelines, dark web intelligence collection",
             "research"  : "Post-Quantum Cryptography and quantum-resistant cryptographic systems",
-            "offensive" : ["Red Team Ops", "Exploit Development", "Bug Bounty"],
-            "defensive" : ["Digital Forensics", "Incident Response", "Threat Hunting"],
-            "platform"  : "AGENTS-HQ is autonomous AI agent intelligence platform (local, air-gap capable)"
+            "offensive" : ["Web & network pentesting (labs, CTFs)", "Exploit development (labs)", "Wireless security (labs)"],
+            "defensive" : ["Digital forensics (building)", "Network protocol analysis"],
+            "platform"  : "AGENTS-HQ: local-first AI intelligence platform (local LLM inference, no cloud AI)"
         }
 
     def opsec_stack(self):
         return {
             "operations" : ["Parrot OS", "Kali Linux", "BlackArch", "Kali Purple"],
             "high_opsec" : ["Qubes OS", "Tails OS"],
-            "methodology": "Methodical analysis, precision execution, comprehensive documentation"
+            "methodology": "Methodical analysis and thorough documentation"
         }
 ```
 
@@ -55,11 +56,11 @@ class SecurityResearcher:
 
 **[AGENTS-HQ](https://github.com/GEPD2/agents-hq)**
 
-Autonomous AI intelligence platform is a local LLM stack, with zero data exfiltration, air-gap capable.
+Local-first AI intelligence platform with 10 agents. LLM inference runs locally through Ollama, with no cloud AI or telemetry; collection modules query external sources (Shodan, Censys, VirusTotal, Tor) by design.
 
-**Stack:** Python · n8n · ChromaDB · ollama · Docker  
-**Models:** DeepSeek-R1:8b · phi3:mini · nomic-embed-text  
-**Agents:** Task Recon · RAG KB · Dark Web Monitor · Ghidra RE · Crypto Analysis · News Intel  
+**Stack:** Python · FastAPI · MySQL · n8n · Ollama · Docker · Tor  
+**Model:** qwen2.5:14b  
+**Agents:** OSINT Collector · Task Recon · RAG KB · Orchestrator · Red Team · Ghidra RE · Crypto Analysis · News Intel · Market Intel · Dark Web Monitor  
 **Status:** `ACTIVE BUILD`
 
 </td>
@@ -67,11 +68,11 @@ Autonomous AI intelligence platform is a local LLM stack, with zero data exfiltr
 
 **[Crypto Toolkit](https://github.com/GEPD2/encryption_app)**
 
-Cryptographic operations suite with classical algorithms to modern encryption, PQC research base.
+Cryptography GUI spanning classical ciphers to post-quantum key encapsulation.
 
-**Stack:** Python  
-**Covers:** Caesar · Vigenère · RSA · Hashing · Entropy Analysis  
-**Purpose:** Post-quantum cryptography research & algorithm comparison  
+**Stack:** Python · Kivy  
+**Covers:** Caesar · Affine · Vigenère · 11 hash functions · ML-KEM-512/768/1024 (FIPS 203), hand-ported in pure Python  
+**Purpose:** Teaching the classical-to-post-quantum span  
 **Status:** `OPERATIONAL`
 
 </td>
@@ -102,7 +103,7 @@ Integrated web security testing with automated scanning through credential analy
 
 **Stack:** Python  
 **Features:** Web enumeration · Automated scanning · Hydra integration  
-**Context:** Web application vulnerability assessment  
+**Context:** Lab and CTF environments  
 **Status:** `OPERATIONAL`
 
 </td>
@@ -112,7 +113,7 @@ Integrated web security testing with automated scanning through credential analy
 
 **[CTF Toolbox](https://github.com/GEPD2/CTF-scripts)**
 
-Competition-grade scripts for reconnaissance through post-exploitation phases.
+Automation scripts for CTFs and labs, from reconnaissance through privilege escalation.
 
 **Stack:** Bash  
 **Features:** Automated recon · Enumeration · Exploitation workflows  
@@ -142,8 +143,8 @@ Orbital mechanics simulation with data transmission protocols.
 MITRE ATT&CK Mapping        — TTP classification and adversary behavior modeling
 IOC Extraction Pipelines    — automated extraction of IPs, hashes, domains, CVEs
 Dark Web Collection         — passive .onion surface monitoring, paste site analysis
-Threat Actor Profiling      — infrastructure correlation and campaign tracking
-RAG-Augmented Analysis      — LLM-assisted CTI via ChromaDB + DeepSeek-R1
+Threat Actor Profiling      — actor profiles and infrastructure correlation
+RAG-Augmented Analysis      — LLM-assisted CTI via local MySQL KB + qwen2.5
 Credential Exposure Ops     — breach database monitoring and hash analysis
 ```
 
@@ -152,19 +153,22 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 ## RESEARCH
 
 ```
-[ IN PROGRESS ]  Post-Quantum Cryptography and quantum-resistant system analysis
-                 Exploring CRYSTALS-Kyber, CRYSTALS-Dilithium, SPHINCS+
-                 Focus: real-world implementation challenges and migration paths
+[ IN PROGRESS ]  CRYSTALS-Kyber: Bridging Theory and Practice in PQ Key Encapsulation
+                 Dependency-free C implementation checked against FIPS 203 vectors,
+                 teaching platform and notebooks. Manuscript, in preparation
 
 [ IN PROGRESS ]  Autonomous CTI Platform (AGENTS-HQ)
                  Local AI agent stack for threat intelligence automation
-                 Zero external API dependency with fully air-gap capable
+                 Local LLM inference; collectors query external sources by design
 
 [ PLANNED ]      Dark Web Telemetry Analysis
                  Passive collection methodology and IOC enrichment pipeline
 
 [ PLANNED ]      Vulnerability Research & Responsible Disclosure
-                 Active bug bounty on HackerOne, Bugcrowd, YesWeHack, Intigrity
+                 Start bug bounty on HackerOne, Bugcrowd, YesWeHack, Intigriti
+
+[ PLANNED ]      Evidence integrity for AGENTS-HQ
+                 SHA-256, RFC 3161 timestamps and a chain-of-custody log per capture
 ```
 
 ---
@@ -184,7 +188,6 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 ### CTI & Intelligence Platform
 ![Tor](https://img.shields.io/badge/Tor_Network-0d1117?style=flat-square&logo=torproject&logoColor=00ff41)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0d1117?style=flat-square&logoColor=00ff41)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0d1117?style=flat-square&logoColor=00ff41)
 ![n8n](https://img.shields.io/badge/n8n-0d1117?style=flat-square&logo=n8n&logoColor=00ff41)
 ![ollama](https://img.shields.io/badge/ollama-0d1117?style=flat-square&logoColor=00ff41)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=00ff41)
@@ -213,7 +216,7 @@ Credential Exposure Ops     — breach database monitoring and hash analysis
 
 ### Digital Forensics
 ![Autopsy](https://img.shields.io/badge/Autopsy-0d1117?style=flat-square&logoColor=00ff41)
-![Xplico](https://img.shields.io/badge/Xplico-0d1117?style=flat-square&logoColor=00ff41)
+![YARA](https://img.shields.io/badge/YARA-0d1117?style=flat-square&logoColor=00ff41)
 
 ### Wireless Security
 ![Airgeddon](https://img.shields.io/badge/Airgeddon-0d1117?style=flat-square&logoColor=00ff41)
@@ -243,22 +246,22 @@ Cyber Threat Intelligence:
   - OSINT, open-source intelligence collection
 
 Offensive Security:
-  - Penetration testing on web, network, infrastructure
-  - Exploit development & red team operations
-  - Bug bounty: HackerOne, Bugcrowd, YesWeHack, Intigrity
-  - CTF: TryHackMe Top 2% (0xB MASTER, 179 rooms) | HackTheBox
+  - Web and network penetration testing in labs and CTFs
+  - Kerberoasting and AS-REP roasting against Active Directory (labs)
+  - Exploit development (labs)
+  - CTF: TryHackMe Top 2% | HackTheBox
 
-Defensive Security:
-  - Incident response & threat hunting
-  - Digital forensics & malware analysis
-  - Blue team defense & security monitoring
-  - Network protocol analysis
+Digital Forensics (building):
+  - Storage media imaging and file recovery
+  - Autopsy, YARA rules
+  - Evidence integrity and chain of custody (learning)
+  - Network protocol analysis with Wireshark
 
 Research:
-  - Post-quantum cryptography on NIST PQC standards
-  - Reverse engineering & binary analysis
+  - Post-quantum cryptography: CRYSTALS-Kyber / ML-KEM (FIPS 203)
+  - Basic reverse engineering with Ghidra
   - AI agent development for security automation
-  - Wireless security assessment
+  - Wireless security assessment (labs)
 ```
 
 ---
@@ -266,20 +269,21 @@ Research:
 ## OPERATIONAL OBJECTIVES
 
 **Threat Intelligence Platform**
-- [ ] Agent-10 Dark Web Monitor: Tor-routed crawler + IOC pipeline → operational
-- [ ] ChromaDB `darkweb_intel` collection structured threat data
-- [ ] DeepSeek-R1 threat classifier for MITRE ATT&CK mapping
-- [ ] Agent-04 for Master Orchestrator: LangGraph full-chain pipeline
+- [x] Agent-10 Dark Web Monitor: Tor-routed crawler + IOC pipeline
+- [x] Agent-04 Master Orchestrator: routing across agents
+- [ ] Evidence-integrity module: SHA-256, RFC 3161 timestamps, chain-of-custody log
+- [ ] MITRE ATT&CK auto-mapping for Dark Web Monitor findings
 
 **Security Research**
-- [ ] Publish post-quantum cryptography research findings
-- [ ] Responsible disclosure for critical vulnerability via HackerOne/Bugcrowd
+- [ ] Complete and publish the CRYSTALS-Kyber manuscript
+- [ ] First responsible disclosure via HackerOne/Bugcrowd
 - [ ] Dark web telemetry analysis methodology writeup
 
 **Future Certifications**
 - [ ] PNPT for TCM Security (Practical Network Penetration Tester)
 - [ ] CompTIA CySA+ for Cybersecurity Analyst
 - [ ] OSCP for Offensive Security Certified Professional
+- [ ] Entry-level DFIR certification (BTL1 or CCD)
 
 **Competition & Community**
 - [ ] Hellenic University Hack 2026
@@ -293,7 +297,7 @@ Research:
 <div align="center">
 
 [![Email](https://img.shields.io/badge/georgios.efthymiou@tuta.com-0d1117?style=flat-square&logo=tutanota&logoColor=00ff41)](mailto:georgios.efthymiou@tuta.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/gepd1-4520883b1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/%CE%B3%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82-%CE%B5%CF%85%CE%B8%CF%85%CE%BC%CE%AF%CE%BF%CF%85-4520883b1/)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/public/users/2158940)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/GEPD1)
 
@@ -307,7 +311,7 @@ Research:
 
 ```
 Security research, threat intelligence, and defensive engineering.
-All research conducted in controlled environments for responsible disclosure.
+All offensive work is done in labs, CTFs and controlled environments.
 ```
 
 </div>
