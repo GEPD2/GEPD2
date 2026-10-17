@@ -33,7 +33,8 @@ class SecurityResearcher:
             "research"  : "Post-Quantum Cryptography and quantum-resistant cryptographic systems",
             "offensive" : ["Web & network pentesting (labs, CTFs)", "Exploit development (labs)", "Wireless security (labs)"],
             "defensive" : ["Digital forensics (building)", "Network protocol analysis"],
-            "platform"  : "AGENTS-HQ: local-first AI intelligence platform (local LLM inference, no cloud AI)"
+            "platform"  : "AGENTS-HQ: local-first AI intelligence platform (local LLM inference, no cloud AI)",
+            "thesis"    : "BSc thesis (starting): security of an ICS digital twin"
         }
 
     def opsec_stack(self):
@@ -246,7 +247,6 @@ Cyber Threat Intelligence:
 
 Offensive Security:
   - Web and network penetration testing in labs and CTFs
-  - Kerberoasting and AS-REP roasting against Active Directory (labs)
   - Exploit development (labs)
   - CTF: TryHackMe Top 2% | HackTheBox
 
@@ -262,6 +262,7 @@ Research:
   - Basic reverse engineering with Ghidra
   - AI agent development for security automation
   - Wireless security assessment (labs)
+  - BSc thesis (starting): security of an ICS digital twin
 ```
 
 ---
@@ -275,14 +276,15 @@ Research:
 - [ ] MITRE ATT&CK auto-mapping for Dark Web Monitor findings
 
 **Security Research**
+- [ ] BSc thesis: security of an ICS (industrial control system) digital twin
 - [ ] Complete and publish the CRYSTALS-Kyber manuscript
 - [ ] First responsible disclosure via HackerOne/Bugcrowd
 - [ ] Dark web telemetry analysis methodology writeup
 
 **Future Certifications**
-- [ ] PNPT for TCM Security (Practical Network Penetration Tester)
-- [ ] CompTIA CySA+ for Cybersecurity Analyst
-- [ ] OSCP for Offensive Security Certified Professional
+- [ ] PNPT, TCM Security (Practical Network Penetration Tester)
+- [ ] CompTIA CySA+ (Cybersecurity Analyst)
+- [ ] OSCP (Offensive Security Certified Professional)
 - [ ] Entry-level DFIR certification (BTL1 or CCD)
 
 **Competition & Community**
@@ -301,7 +303,7 @@ Research:
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=00ff41)](https://app.hackthebox.com/public/users/2158940)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=flat-square&logo=tryhackme&logoColor=00ff41)](https://tryhackme.com/p/GEPD1)
 
-*Encrypted communication preferred to tuta.com natively supports end-to-end encryption.*
+*Encrypted communication preferred: tuta.com natively supports end-to-end encryption.*
 
 </div>
 
